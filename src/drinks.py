@@ -4,10 +4,6 @@ class Drink:
         self.price = price
         self.alcohol_level = alcohol_level
 
-    def __repr__(self) -> str:
-        rep = f"Name is: {self.name}, price is {self.price} and alcohol level is {self.alcohol_level}"
-        return rep
-
     
 
     
